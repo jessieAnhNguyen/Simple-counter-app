@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import {Button, View, Text} from 'react-native';
 import Header from './components/Header';
 
+//simple incrementing button
 const App = () => {
   const [counter, setCounter] = useState(0);
   return (
